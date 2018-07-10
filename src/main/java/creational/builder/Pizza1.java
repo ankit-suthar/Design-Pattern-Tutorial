@@ -1,40 +1,39 @@
 package creational.builder;
 
 /**
- * This is example of all setter class
+ * This is example of all setter class - Flexible Bean Approach
  * The object has not contract defined
  * It is mutable i.e we can change its datamembers at any time which is dangerous
  * */
 public class Pizza1 {
 
 	private int size;
-	private boolean cheese;
-	private boolean pepperoni;
-	private boolean bacon;
+	private String cheese;
+	private String pepperoni;
+	private String bacon;
+	
 	public int getSize() {
 		return size;
 	}
 	public void setSize(int size) {
 		this.size = size;
 	}
-	public boolean isCheese() {
+	public String isCheese() {
 		return cheese;
 	}
-	public void setCheese(boolean cheese) {
+	public void setCheese(String cheese) {
 		this.cheese = cheese;
 	}
-	public boolean isPepperoni() {
+	public String isPepperoni() {
 		return pepperoni;
 	}
-	public void setPepperoni(boolean pepperoni) {
+	public void setPepperoni(String pepperoni) {
 		this.pepperoni = pepperoni;
 	}
-	public boolean isBacon() {
+	public String isBacon() {
 		return bacon;
 	}
-	public void setBacon(boolean bacon) {
+	public void setBacon(String bacon) {
 		this.bacon = bacon;
 	}
-	
-	
 }
