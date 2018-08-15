@@ -3,7 +3,8 @@ package creational.builder;
 /**
  * This is example of all setter class - Flexible Bean Approach
  * The object has not contract defined
- * It is mutable i.e we can change its datamembers at any time which is dangerous
+ * It is mutable i.e we can change its datamembers at any time which is dangerous - 
+ * incosistent also - as it can be accesed before fully created. 
  * */
 public class Pizza1 {
 
