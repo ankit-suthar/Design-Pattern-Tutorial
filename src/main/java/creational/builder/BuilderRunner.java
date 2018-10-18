@@ -14,6 +14,7 @@ public class BuilderRunner {
 		
 		//Telescopic Constructor Approach, not flexible but gives immutable object
 		Pizza2 pizza2 = new Pizza2(5, "mozerella", "extra");
+		System.out.println(pizza2);
 		//pizza2 cannot be modified now but 
 		// we cannot create a pizza which has size, cheese and bacon known only
 		
